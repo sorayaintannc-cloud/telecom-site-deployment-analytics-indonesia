@@ -31,16 +31,20 @@ West Java, Indonesia.
 January 2023–December 2025.
 
 ## Initial Implementation Scale
-- 100 sites
+- 100 synthetic telecom deployment sites
 - 5 fictional vendors
-- 9–12 milestones
-- about 10 document types
+- 9 operational milestones
+- Approximately 10 document types
 - 3–5 issue categories
-- daily or weekly snapshots
-- at least 6 Power BI pages
+- Daily site progress records
+- At least 6 decision-oriented Power BI pages
 
 ## Data Strategy
-Public data is used only for geography and regional context. Operational project records are synthetic and must not represent any real operator, vendor, employer, or confidential project.
+Public data is used only for geographic and regional context.
+
+Operational project records are synthetically generated for sites, milestones, vendors, issues, documents, daily site progress, SLA performance, and risk scoring.
+
+The synthetic operational data must not represent any real telecom operator, vendor, employer, or confidential project.
 
 ## Core Business Questions
 1. How many sites are planned, active, completed, overdue, and at risk?
@@ -71,7 +75,7 @@ Public data is used only for geography and regional context. Operational project
 - Data Quality Pass Rate
 
 ## Technical Architecture
-Public and simulated sources → Python ingestion → PostgreSQL raw → dbt staging/intermediate/marts → Airflow orchestration → Power BI.
+Public and simulated sources → Python ingestion → PostgreSQL raw layer → dbt staging, intermediate, and mart models → Airflow orchestration → Power BI.
 
 ## Success Criteria
-The initial implementation is considered successful when it includes a reproducible 100-site dataset, a PostgreSQL database, documented dbt marts and tests, one working Airflow DAG, a reconciled Power BI dashboard with at least six pages, an interpretable risk score, and a clear public case study.
+The initial implementation is considered successful when it includes a reproducible 100-site dataset, a working PostgreSQL database, documented dbt staging, intermediate, and mart models, critical data-quality and business-rule tests, one working Airflow DAG, a reconciled Power BI dashboard with at least six decision-oriented pages, an interpretable rule-based risk score, and a clear public case study.

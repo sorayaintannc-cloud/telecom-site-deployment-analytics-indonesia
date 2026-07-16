@@ -16,16 +16,17 @@ This project develops a governed analytical platform that consolidates these dat
 - Period: January 2023–December 2025
 - Initial scale: 100 synthetic telecom deployment sites
 - Vendors: 5 fictional vendors
-- Milestones: 9–12 deployment stages
+- Operational milestones: 9 deployment stages
 - Documents: approximately 10 document types
 - Issues: 3–5 issue categories
+- Daily site progress records
 - Dashboard: at least 6 decision-oriented Power BI pages
 
 ## Data Strategy
 
 Public data is used to provide geographic and regional context.
 
-Operational records covering sites, milestones, vendors, issues, documents, progress snapshots, SLA performance, and risk scoring are synthetically generated from documented telecom project-delivery rules.
+Operational records covering sites, milestones, vendors, issues, documents, daily site progress, SLA performance, and risk scoring are synthetically generated from documented telecom project-delivery rules.
 
 The synthetic operational data does not represent any real telecom operator, vendor, employer, or confidential project.
 
@@ -45,3 +46,4 @@ dbt Staging, Intermediate, and Mart Models
 Airflow Orchestration
         ↓
 Power BI Dashboard
+```
