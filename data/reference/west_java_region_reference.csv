@@ -1,0 +1,28 @@
+region_code,regency_city_name,region_type,population,population_density,density_class,reference_year
+3201,Kabupaten Bogor,Regency,5721620,1912,Medium,2025
+3202,Kabupaten Sukabumi,Regency,2852110,685,Low,2025
+3203,Kabupaten Cianjur,Regency,2610320,719,Low,2025
+3204,Kabupaten Bandung,Regency,3783210,2173,Medium,2025
+3205,Kabupaten Garut,Regency,2748700,886,Low,2025
+3206,Kabupaten Tasikmalaya,Regency,1933810,715,Low,2025
+3207,Kabupaten Ciamis,Regency,1266330,793,Low,2025
+3208,Kabupaten Kuningan,Regency,1225490,1027,Medium,2025
+3209,Kabupaten Cirebon,Regency,2413810,2252,Medium,2025
+3210,Kabupaten Majalengka,Regency,1363760,1025,Medium,2025
+3211,Kabupaten Sumedang,Regency,1195530,763,Low,2025
+3212,Kabupaten Indramayu,Regency,1932520,931,Low,2025
+3213,Kabupaten Subang,Regency,1675520,774,Low,2025
+3214,Kabupaten Purwakarta,Regency,1062970,1070,Medium,2025
+3215,Kabupaten Karawang,Regency,2581250,1349,Medium,2025
+3216,Kabupaten Bekasi,Regency,3303020,2640,Medium,2025
+3217,Kabupaten Bandung Barat,Regency,1907820,1486,Medium,2025
+3218,Kabupaten Pangandaran,Regency,436490,387,Low,2025
+3271,Kota Bogor,City,1083780,9731,Very High,2025
+3272,Kota Sukabumi,City,370680,7673,High,2025
+3273,Kota Bandung,City,2548780,15300,Very High,2025
+3274,Kota Cirebon,City,347540,8812,Very High,2025
+3275,Kota Bekasi,City,2648270,12431,Very High,2025
+3276,Kota Depok,City,2167960,10845,Very High,2025
+3277,Kota Cimahi,City,606380,14291,Very High,2025
+3278,Kota Tasikmalaya,City,759370,4128,High,2025
+3279,Kota Banjar,City,211960,1618,Medium,2025
