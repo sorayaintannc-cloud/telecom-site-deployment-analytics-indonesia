@@ -1,14 +1,14 @@
 # Telecom Site Deployment Performance and SLA Monitoring in Indonesia
 
-An end-to-end analytics project designed to monitor telecom site deployment progress, milestone completion, SLA compliance, issue aging, document readiness, vendor performance, and escalation risk.
+An end-to-end analytics project designed to monitor telecom site deployment progress, milestone completion, SLA compliance, issue aging, document readiness, vendor performance, reporting freshness, and escalation risk.
 
-The project combines public regional data from West Java with realistically simulated telecom project-delivery records. It demonstrates Data Analyst capabilities with exposure to Analytics Engineering and Data Engineering.
+The project combines public regional data from West Java with realistically simulated telecom project-delivery records. It demonstrates Data Analyst capabilities with exposure to Analytics Engineering and Data Engineering practices.
 
 ## Business Problem
 
-Telecom project-delivery information is often distributed across spreadsheets, issue trackers, document logs, email updates, and management reports. This fragmentation can produce inconsistent KPIs, delayed escalation, weak vendor accountability, and limited visibility into project risk.
+Telecom project-delivery information is often distributed across spreadsheets, issue trackers, document logs, email updates, and management reports. This fragmentation can lead to inconsistent KPI calculations, delayed escalation, weak vendor accountability, and limited visibility into project risks.
 
-This project develops a governed analytical platform that consolidates those data domains into a reliable monitoring and decision-support system.
+This project develops a governed analytical platform that consolidates these data domains into a reliable monitoring and decision-support system.
 
 ## Initial Project Scope
 
@@ -23,11 +23,11 @@ This project develops a governed analytical platform that consolidates those dat
 
 ## Data Strategy
 
-Public data is used for geographic and regional context.
+Public data is used to provide geographic and regional context.
 
 Operational records covering sites, milestones, vendors, issues, documents, progress snapshots, SLA performance, and risk scoring are synthetically generated from documented telecom project-delivery rules.
 
-The synthetic data does not represent any real operator, vendor, employer, or confidential project.
+The synthetic operational data does not represent any real telecom operator, vendor, employer, or confidential project.
 
 ## Planned Architecture
 
