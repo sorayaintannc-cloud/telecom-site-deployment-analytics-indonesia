@@ -54,17 +54,26 @@ The dictionary will be refined during PostgreSQL and dbt implementation.
 
 ## `region_reference`
 
+Reference table containing public population, population density, and
+administrative information for the 27 regencies and cities in West Java.
+
+**Level of Detail:** One row per regency or city.
+
 | Column | Data Type | Description | Rule |
 |---|---|---|---|
-| `region_code` | String | Official regional code | Required and unique |
-| `province_name` | String | Province name | West Java |
-| `regency_city_name` | String | Regency or city name | Required |
-| `population` | Integer | Public population context | Non-negative |
-| `population_density` | Decimal | Population per square kilometre | Non-negative |
-| `urban_rural_class` | String | Regional classification | Urban, Peri-Urban, Rural |
-| `terrain_class` | String | Simplified terrain category | Flat, Hilly, Mountainous |
-| `accessibility_class` | String | Regional access category | Easy, Moderate, Difficult |
-| `rainfall_class` | String | Simplified rainfall category | Low, Medium, High |
+| `region_code` | String | Official BPS code for a regency or city | Required, unique, and four characters long |
+| `regency_city_name` | String | Official name of the regency or city | Required and must match the official regional-code reference |
+| `region_type` | String | Administrative area type derived from the region name | `Regency` or `City` |
+| `population` | Integer | Total population in people | Required, non-negative, and converted from the original source unit of thousand people |
+| `population_density` | Integer | Population density in people per square kilometre | Required and non-negative |
+| `density_class` | String | Analytical population-density classification | `Low`, `Medium`, `High`, or `Very High` |
+| `reference_year` | Integer | Year represented by the population and population-density values | Required; current implementation uses `2025` |
+
+**Business key:**
+
+```text
+region_code
+```
 
 ## `milestone_event`
 
