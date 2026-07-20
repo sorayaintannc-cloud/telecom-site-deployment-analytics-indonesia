@@ -61,13 +61,13 @@ administrative information for the 27 regencies and cities in West Java.
 
 | Column | Data Type | Description | Rule |
 |---|---|---|---|
-| `region_code` | String | Official BPS code for a regency or city | Required, unique, and four characters long |
+| `region_code` | String | Official BPS code for a regency or city | Required and unique |
 | `regency_city_name` | String | Official name of the regency or city | Required and must match the official regional-code reference |
 | `region_type` | String | Administrative area type derived from the region name | `Regency` or `City` |
 | `population` | Integer | Total population in people | Required, non-negative, and converted from the original source unit of thousand people |
 | `population_density` | Integer | Population density in people per square kilometre | Required and non-negative |
 | `density_class` | String | Analytical population-density classification | `Low`, `Medium`, `High`, or `Very High` |
-| `reference_year` | Integer | Year represented by the population and population-density values | Required; current implementation uses `2025` |
+| `reference_year` | Integer | Reference year represented by the population and population-density values | Required; current implementation uses `2025` |
 
 **Business key:**
 
